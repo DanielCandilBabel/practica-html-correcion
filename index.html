@@ -4,102 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
 
-    <title>Juan Maravilloso</title>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="main.css" rel="stylesheet">
+    <title>Juan maravilloso</title>
 </head>
 
 <body>
-    <!-- HEADER -->
-    <header class="wrapper nav-open">
+    <header class="wrapper">
         <h2>Juan maravilloso</h2>
-        <i class="material-icons" id="icon-open">
+        <i id="icon-open" class="material-icons">
             menu
         </i>
-        <i class="material-icons" id="icon-close">
+        <i id="icon-close" class="material-icons">
             close
         </i>
         <nav>
             <ul>
                 <li>SOBRE MI</li>
                 <li>HABILIDADES</li>
-                <li>CONTACTAME</li>
+                <li>CONTÁCTAME</li>
             </ul>
         </nav>
     </header>
-
-    <!-- MAIN -->
     <main>
         <article>
-            <!-- SUMMERY -->
-            <section id="summery" class="wrapper">
-                <p>¡HOLA!</p>
-                <h1>
-                    SOY JUAN,
-                    DESARROLLADOR
-                    WEB
-                </h1>
-                <a class="button" href="contact.html">¿HABLAMOS?</a>
-
+            <section id="summary" class="wrapper">
+                <p>¡HOLA¡</p>
+                <h1>Soy Juan,
+                    desarrollador
+                    web</h1>
+                <a class="button" href="#">¿HABLAMOS?</a>
             </section>
-            <!-- ABOUT ME -->
-            <section id="aboutme" class="wrapper">
-                <h2>SOBRE MI</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit possimus excepturi aperiam
-                    perferendis expedita rem odit quis, magni asperiores eius. Minima nemo qui assumenda incidunt quia
-                    iste voluptas asperiores obcaecati!
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut porro blanditiis ipsa vel velit commodi
-                    quas quasi distinctio accusamus excepturi fuga, dolor quae quisquam exercitationem dolorum,
-                    cupiditate, vero numquam eveniet?</p>
+            <section id="about-me" class="wrapper">
+                <h2>sobre mi</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Tn-2xOloSko" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. </p>
+
+                <div class="videoWrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOzzRlc_qho"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
             </section>
-
-            <!-- SKILLS -->
             <section id="skills" class="wrapper">
                 <h2>HABILIDADES</h2>
                 <div class="list">
                     <div class="skill">
-                        <h3>FRONT-END DEVELOPER</h3>
-                        <h4>LENGUAJES</h4>
+                        <h3>Front-end developer</h3>
+                        <h4>Lenguajes</h4>
                         <p>HTML, CSS, JavaScript</p>
-                        <h4>DEV TOOLS<h4>
-                                <li>Atom</li>
-                                <li>Bootstrap</li>
-                                <li>Github</li>
-                                <li>Gitlab</li>
-                                <li>Terminal</li>
+                        <h4>DEV TOOLS</h4>
+                        <ul>
+                            <li>Atom</li>
+                            <li>Bootstrap</li>
+                            <li>Github</li>
+                            <li>Gitlab</li>
+                            <li>Terminal</li>
+                        </ul>
                     </div>
-
                     <div class="skill">
-                        <h3>BACK-END DEVELOPER</h3>
-                        <h4>LENGUAJES</h4>
+                        <h3>back-end developer</h3>
+                        <h4>Lenguajes</h4>
                         <p>Java, Node.js, Python, PHP</p>
-                        <h4>DEV TOOLS<h4>
-                                <li>Atom</li>
-                                <li>Angular</li>
-                                <li>Github</li>
-                                <li>Docker</li>
-                                <li>XAMPP</li>
+                        <h4>DEV TOOLS</h4>
+                        <ul>
+                            <li>Angular</li>
+                            <li>Github</li>
+                            <li>Docker</li>
+                            <li>XAMPP</li>
+                        </ul>
                     </div>
                 </div>
             </section>
-
         </article>
-
     </main>
-
-    <!-- FOOTER -->
-
-    <footer>
-        <p>© 2019 JUAN MARAVILLOSO</p>
+    <footer class="wrapper">
+        <p>© 2019 Juan maravilloso </p>
     </footer>
 </body>
 

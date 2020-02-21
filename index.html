@@ -4,13 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Juan Maravilloso</title>
 </head>
 
 <body>
     <!-- HEADER -->
-    <header>
+    <header class="wrapper">
         <h2>Juan maravilloso</h2>
+        <i class="material-icons" id="icon-open"> menu </i>
+        <i class="material-icons" id="icon-close"> close </i>
         <nav>
             <ul>
                 <li>SOBRE MI</li>
@@ -24,18 +32,18 @@
     <main>
         <article>
             <!-- SUMMERY -->
-            <section id="summery">
+            <section id="summery" class="wrapper">
                 <p>¡HOLA!</p>
                 <h1>
                     SOY JUAN,
                     DESARROLLADOR
                     WEB
                 </h1>
-                <a href="contact.html"></a>
+                <a class="button" href="contact.html">¿HABLAMOS?</a>
 
             </section>
             <!-- ABOUT ME -->
-            <section id="aboutme">
+            <section id="aboutme" class="wrapper">
                 <h2>SOBRE MI</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit possimus excepturi aperiam
                     perferendis expedita rem odit quis, magni asperiores eius. Minima nemo qui assumenda incidunt quia
@@ -45,12 +53,13 @@
                     quas quasi distinctio accusamus excepturi fuga, dolor quae quisquam exercitationem dolorum,
                     cupiditate, vero numquam eveniet?</p>
 
-                <iframe src="https://www.youtube.com/embed/Tn-2xOloSko" width=auto height="auto"
-                frameborder="0"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Tn-2xOloSko" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </section>
 
             <!-- SKILLS -->
-            <section id="skills">
+            <section id="skills" class="wrapper">
                 <h2>HABILIDADES</h2>
                 <div class="list">
                     <div class="skill">
@@ -58,11 +67,11 @@
                         <h4>LENGUAJES</h4>
                         <p>HTML, CSS, JavaScript</p>
                         <h4>DEV TOOLS<h4>
-                        <li>Atom</li> 
-                            <li>Bootstrap</li> 
-                            <li>Github</li>
-                            <li>Gitlab</li>  
-                            <li>Terminal</li> 
+                                <li>Atom</li>
+                                <li>Bootstrap</li>
+                                <li>Github</li>
+                                <li>Gitlab</li>
+                                <li>Terminal</li>
                     </div>
 
                     <div class="skill">
@@ -70,12 +79,12 @@
                         <h4>LENGUAJES</h4>
                         <p>Java, Node.js, Python, PHP</p>
                         <h4>DEV TOOLS<h4>
-                        <li>Atom</li> 
-                            <li>Angular</li> 
-                            <li>Github</li>
-                            <li>Docker</li>  
-                            <li>XAMPP</li> 
-                        </div>
+                                <li>Atom</li>
+                                <li>Angular</li>
+                                <li>Github</li>
+                                <li>Docker</li>
+                                <li>XAMPP</li>
+                    </div>
                 </div>
             </section>
 
